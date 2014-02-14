@@ -267,6 +267,7 @@ function get_woocommerce_currency_symbol( $currency = '' ) {
 		case 'RON' : $currency_symbol = 'lei'; break;
 		case 'VND' : $currency_symbol = '&#8363;'; break;
 		case 'NGN' : $currency_symbol = '&#8358;'; break;
+		case 'COP' : $currency_symbol = '&#36;'; break;
 		default    : $currency_symbol = ''; break;
 	}
 
